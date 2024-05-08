@@ -10,6 +10,8 @@ https://github.com/maxbrand99/nodeMonitoring/blob/main/index.js#L9 - add the pho
 
 https://github.com/maxbrand99/nodeMonitoring/blob/main/index.js#L20 - add your messagingServiceSid
 
+https://github.com/maxbrand99/nodeMonitoring/blob/main/index.js#L21 - add your node name here
+
 https://github.com/maxbrand99/nodeMonitoring/blob/main/index.js#L55 - if you use custom database information (like a different password) update it here
 
 
