@@ -1,5 +1,6 @@
 # nodeMonitoring
-public fork of node monitoring by https://github.com/mamacker
+public fork of node monitoring written by https://github.com/mamacker (i just got permission to make the fork)
+
 
 
 things to edit, all mandatory fields are marked as TODO:
