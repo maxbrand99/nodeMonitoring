@@ -1,0 +1,12 @@
+version: "3"
+services:
+  monitoringserver:
+    build: .
+    restart: always
+    hostname: monitoring
+    container_name: monitoring
+    network_mode: host
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3" 
