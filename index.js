@@ -12,10 +12,11 @@ let oncall = [
   "phone number 3",
 ];
 
-// SUGGESTION: replace this function with a notification service of your choice, if we all use twillio, we have a common point of failure
+// SUGGESTION: insert notification service of your choice, if we all use twillio, we have a common point of failure, if you want to use twillio, just uncomment the lines
 async function notify(msg, line) {
   return new Promise((resolve, reject) => {
     try {
+      /*
       twillio.messages.create({
         to: '+' + line, // Any number Twilio can deliver to
         messagingServiceSid: 'TODO', //TODO: replace with your messagingServiceSid
@@ -25,8 +26,9 @@ async function notify(msg, line) {
           console.log("Done sending through twilio.");
           resolve("Done sending.");
         });
+      */
     } catch (ex) {
-      console.log("Error sending through twilio: ", ex);
+      console.log("Error sending through message: ", ex);
       resolve();
     }
   });
