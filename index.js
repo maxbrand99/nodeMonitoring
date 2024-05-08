@@ -18,7 +18,7 @@ async function notify(msg, line) {
       twillio.messages.create({
         to: '+' + line, // Any number Twilio can deliver to
         messagingServiceSid: 'TODO', //TODO: replace with your messagingServiceSid
-        body: 'AxieChatNode: ' + msg // body of the SMS message
+        body: 'YOUR NAME HERE: ' + msg // body of the SMS message TODO: Add your name
       }).then(message => console.log(message.sid))
         .done(() => {
           console.log("Done sending through twilio.");
