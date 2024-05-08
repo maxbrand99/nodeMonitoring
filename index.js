@@ -12,6 +12,7 @@ let oncall = [
   "phone number 3",
 ];
 
+// SUGGESTION: replace this function with a notification service of your choice, if we all use twillio, we have a common point of failure
 async function notify(msg, line) {
   return new Promise((resolve, reject) => {
     try {
