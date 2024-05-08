@@ -3,7 +3,7 @@ const http = require('http');
 const net = require('net');
 const si = require('systeminformation');
 const { Client } = require('pg')
-var twillio = require('twilio')('TODO', 'TODO'); //TODO: add api keys, will get exact name soon
+var twillio = require('twilio')('Account SID', 'Auth Token'); //TODO: add api keys, Account SID and Auth Token from https://console.twilio.com/ under account info
 
 // TODO: replace with your phone numbers, min of 1, no maximum
 let oncall = [
